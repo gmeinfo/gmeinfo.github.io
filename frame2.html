@@ -1,0 +1,323 @@
+
+
+
+
+<html>
+
+<head> 
+
+
+
+
+<!-- DIV BOX -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  background-color: #FF4500;
+  border-radius: 15px;
+  padding: 10px;
+  color: black;
+  font-family: Verdana;
+
+}
+
+
+
+
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  left: 400px;
+  border-radius: 15px;
+  padding: 10px;
+  color: black;
+  font-family: Verdana;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: #0062ff;
+  color: black;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+}
+
+
+
+<!-- DIV remove box-->
+
+ 
+#GFG_DIV { 
+				background: green; 
+				height: 100px; 
+				width: 200px; 
+				margin: 0 auto; 
+				color: white; 
+
+			} 
+
+		</style> 
+		
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+<!-- UPDATE INPUTS -->
+
+
+<script>
+function changeText4(){
+    var userInput4 = document.getElementById('userInput4').value;
+    var lnk4 = document.getElementById('lnk4');
+    lnk4.href = "https://twitter.com/search?q=" + userInput4;
+    lnk4.innerHTML = userInput4; 
+
+    var userInput41 = document.getElementById('userInput4').value;
+    var lnk41 = document.getElementById('lnk41');
+    lnk41.href = "https://www.reddit.com/r/GME/search?q=" + userInput4 + "&restrict_sr=1&sort=new";
+    lnk41.innerHTML = userInput4; 
+
+    var userInput42 = document.getElementById('userInput4').value;
+    var lnk42 = document.getElementById('lnk42');
+    lnk42.href = "https://www.reddit.com/r/GME/search?q=" + userInput4 + "&restrict_sr=1&sort=hot";
+    lnk42.innerHTML = userInput4; 
+
+    var userInput43 = document.getElementById('userInput4').value;
+    var lnk43 = document.getElementById('lnk43');
+    lnk43.href = "https://www.reddit.com/r/wallstreetbets/search?q=" + userInput4 + "&restrict_sr=1&sort=new";
+    lnk43.innerHTML = userInput4;
+
+    var userInput44 = document.getElementById('userInput4').value;
+    var lnk44 = document.getElementById('lnk44');
+    lnk44.href = "https://www.reddit.com/r/wallstreetbets/search?q=" + userInput4 + "&restrict_sr=1&sort=hot";
+    lnk44.innerHTML = userInput4;
+
+    var userInput45 = document.getElementById('userInput4').value;
+    var lnk45 = document.getElementById('lnk45');
+    lnk45.href = "https://www.youtube.com/results?search_query=" + userInput4;
+    lnk45.innerHTML = userInput4;
+
+    var userInput46 = document.getElementById('userInput4').value;
+    var lnk46 = document.getElementById('lnk46');
+    lnk46.href = "https://www.youtube.com/results?search_query=" + userInput4 + "&sp=EgJAAQ%253D%253D";
+    lnk46.innerHTML = userInput4;
+
+    var userInput47 = document.getElementById('userInput4').value;
+    var lnk47 = document.getElementById('lnk47');
+    lnk47.href = "https://trends.google.com/trends/explore?q=" + userInput4;
+    lnk47.innerHTML = userInput4;
+
+    var userInput48 = document.getElementById('userInput4').value;
+    var lnk48 = document.getElementById('lnk48');
+    lnk48.href = "https://news.google.com/search?q=" + userInput4;
+    lnk48.innerHTML = userInput4;
+
+    var userInput49 = document.getElementById('userInput4').value;
+    var lnk49 = document.getElementById('lnk49');
+    lnk49.href = "https://www.google.com/finance/quote/" + userInput4 + ":NYSE";
+    lnk49.innerHTML = userInput4;
+
+    var userInput50 = document.getElementById('userInput4').value;
+    var lnk50 = document.getElementById('lnk50');
+    lnk50.href = "https://www.google.com/search?sxsrf=ALeKk021c-CUMo5K2X_Gts_QDYDX9qTvCw%3A1615595045201&source=hp&ei=JQZMYK7MCcLUtQWl7JToAQ&iflsig=AINFCbYAAAAAYEwUNQ0hArDtXGvm_BgBgIH9xYIdydGZ&q=" + userInput4;
+    lnk50.innerHTML = userInput4;
+
+    var userInput51 = document.getElementById('userInput4').value;
+    var lnk51 = document.getElementById('lnk51');
+    lnk51.href = "https://www.facebook.com/search/posts?q=" + userInput4 + "&filters=eyJycF9hdXRob3I6MCI6IntcIm5hbWVcIjpcIm1lcmdlZF9wdWJsaWNfcG9zdHNcIixcImFyZ3NcIjpcIlwifSIsInJwX2NyZWF0aW9uX3RpbWU6MCI6IntcIm5hbWVcIjpcImNyZWF0aW9uX3RpbWVcIixcImFyZ3NcIjpcIntcXFwic3RhcnRfeWVhclxcXCI6XFxcIjIwMjFcXFwiLFxcXCJzdGFydF9tb250aFxcXCI6XFxcIjIwMjEtMVxcXCIsXFxcImVuZF95ZWFyXFxcIjpcXFwiMjAyMVxcXCIsXFxcImVuZF9tb250aFxcXCI6XFxcIjIwMjEtMTJcXFwiLFxcXCJzdGFydF9kYXlcXFwiOlxcXCIyMDIxLTEtMVxcXCIsXFxcImVuZF9kYXlcXFwiOlxcXCIyMDIxLTEyLTMxXFxcIn1cIn0ifQ%3D%3D";
+    lnk51.innerHTML = userInput4;
+
+    var userInput52 = document.getElementById('userInput4').value;
+    var lnk52 = document.getElementById('lnk52');
+    lnk52.href = "https://www.instagram.com/explore/tags/" + userInput4;
+    lnk52.innerHTML = userInput4;
+
+    var userInput53 = document.getElementById('userInput4').value;
+    var lnk53 = document.getElementById('lnk53');
+    lnk53.href = "https://www.reuters.com/search/news?blob=" + userInput4 + "&sortBy=date&dateRange=all";
+    lnk53.innerHTML = userInput4;
+
+    var userInput54 = document.getElementById('userInput4').value;
+    var lnk54 = document.getElementById('lnk54');
+    lnk54.href = "https://finance.yahoo.com/quote/" + userInput4;
+    lnk54.innerHTML = userInput4;
+
+    var userInput55 = document.getElementById('userInput4').value;
+    var lnk55 = document.getElementById('lnk55');
+    lnk55.href = "https://www.nasdaq.com/market-activity/stocks/" + userInput4;
+    lnk55.innerHTML = userInput4;
+
+    var userInput56 = document.getElementById('userInput4').value;
+    var lnk56 = document.getElementById('lnk56');
+    lnk56.href = "https://stocktwits.com/symbol/" + userInput4;
+    lnk56.innerHTML = userInput4;
+
+    var userInput57 = document.getElementById('userInput4').value;
+    var lnk57 = document.getElementById('lnk57');
+    lnk57.href = "https://swaggystocks.com/dashboard/stocks/" + userInput4;
+    lnk57.innerHTML = userInput4;
+}
+
+</script>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+<!-- BUTTONS -->
+
+<!-- DISPLAY LINKS -->
+
+<div class="container">
+
+  <div class="bottom-left">Bottom Left</div>
+  <div class="top-left" align= "left">
+<center>
+
+<b>Reddit</b></summary>
+<br>
+<h2>
+<a href="https://www.reddit.com/r/GME/?f=flair_name%3A%22DD%22"><b> &#128142; D &#128588; D &#128142; </h2></a>
+</center>
+
+
+<details>
+<summary>
+Posts
+</summary>
+<a href="https://www.reddit.com/r/GME/comments/lj1wqv/a_comprehensive_compilation_of_all_due_diligence/">All DD</a><br>
+
+
+
+<a href="https://www.reddit.com/r/gme/">GME &#128293;</a> <a href="https://www.reddit.com/r/gme/new/"> &#127381;</a> <a href="https://www.reddit.com/r/gme/rising/"> &#x1F4C8;</a><br>
+<a href="https://www.reddit.com/r/wallstreetbets/">WSB &#128293;</a> <a href="https://www.reddit.com/r/wallstreetbets/new/"> &#127381;</a> <a href="https://www.reddit.com/r/wallstreetbets/rising/"> &#x1F4C8;</a>
+</details>
+
+
+<details>
+<summary>
+Select posts
+</summary>
+
+<a href="https://www.reddit.com/r/wallstreetbets/comments/m520iq/regarding_retail_has_no_power_numbers_data_a/" target= "blank"> Regarding "retail has no power" - Numbers, data, a reality check, & why you're wrong</a><br>
+
+<a href="https://www.reddit.com/r/wallstreetbets/comments/m4rbdw/forbes_just_published_the_dumbest_and_most/">Forbes just published the DUMBEST and most dangerous article yet about the GME saga.</a><br>
+
+
+</details>
+
+
+<details>
+<summary>
+Authors
+</summary>
+
+
+<a href="https://www.reddit.com/user/deepfuckingvalue/posts/" target="blank">DFV</a><br>
+
+<a href="https://www.reddit.com/user/Rensole" target="blank">Rensole</a><br>
+
+<a href="https://www.reddit.com/user/heyitspixel" target="blank">heyitspixel</a><br>
+
+<a href="https://www.reddit.com/user/Corno4825" target="blank">Corno4825</a><br>
+
+<a href="https://www.reddit.com/user/WardenElite/" target="blank">WardenElite</a><br>
+
+<a href="https://www.reddit.com/user/Shorty-hunter" target="blank">Shorty_hunter</a><br>
+
+</details>
+
+
+
+<details>
+<summary>
+Search
+</summary>
+
+<a href="https://www.reddit.com/r/GME/search?q=options&restrict_sr=1&sort=new" target="blank">Options</a><br>
+<a href="https://www.reddit.com/r/GME/search?q=800&restrict_sr=1&sort=new" target="blank">800</a><br>
+<a href="https://www.reddit.com/r/GME/search?q=calls%20expire&restrict_sr=1&sort=new" target="blank">Calls expire</a><br>
+<a href="https://www.reddit.com/r/GME/search?q=puts%20expire&restrict_sr=1&sort=new" target="blank">Puts expire</a><br>
+
+<a href="https://www.reddit.com/r/GME/search?q=whale&restrict_sr=1&sort=new" target="blank">Whale</a><br>
+<a href="https://www.reddit.com/r/GME/search?q=technical&restrict_sr=1&sort=new" target="blank">Technical</a><br>
+<a href="https://www.reddit.com/r/GME/search?q=SSR&restrict_sr=1&sort=new" target="blank">SSR</a><br>
+<a href="https://www.reddit.com/r/GME/search?q=liquidity&restrict_sr=1&sort=new" target="blank">liquidity</a><br>
+<a href="https://www.reddit.com/r/GME/search?q=breaking&restrict_sr=1&sort=new" target="blank">Breaking</a><br>
+
+
+<a href="https://www.reddit.com/r/GME/search?q=Hard to borrow&restrict_sr=1&sort=new" target="blank">Hard to borrow</a><br>
+<a href="https://www.reddit.com/r/GME/search?q=Shorts%20available&restrict_sr=1&sort=new" target="blank">Shorts available</a><br>
+<a href="https://www.reddit.com/r/GME/search?q=Shares%20available&restrict_sr=1&sort=new" target="blank">Shares available</a><br>
+<a href="https://www.reddit.com/r/GME/search?q=Shares%20short&restrict_sr=1&sort=new" target="blank">Shares short</a><br>
+<a href="https://www.reddit.com/r/GME/search?q=float&restrict_sr=1&sort=new" target="blank">Float</a><br>
+
+</details>
+
+
+
+
+
+
+</div>
+</div>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prelaunch sequence initiating</title>
+<style>
+    iframe{
+    overflow:hidden;
+        border: 2px solid #ccc;
+    }
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+<iframe src="topframe.html" id="myIframe" name = "topframe" height=300px width=100%>
+
+
+
+
+
+
+
+
+
+</iframe>
+<center>
+<iframe src="frame1.html" id="myIframe" name = "frame1" height=550px width=19%></iframe>
+<iframe src="frame2.html" id="myIframe" name = "frame2" height=550px width=19%></iframe>
+<iframe src="frame3.html" id="myIframe" name = "frame3" height=550px width=19%></iframe>
+<iframe src="frame4.html" id="myIframe" name = "frame4" height=550px width=19%></iframe>
+<iframe src="frame1.html" id="myIframe" name = "frame1" height=550px width=19%></iframe>
+
+<center>
+Not financial advice
+
+
+
+    <script>
+    // Selecting the iframe element
+    var iframe = document.getElementById("myIframe");
+    
+    // Adjusting the iframe height onload event
+    iframe.onload = function(){
+        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
+    </script>
+</body>
+</html>
