@@ -1,0 +1,264 @@
+<html>
+
+<head> 
+
+
+<!-- DIV BOX -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  background-color: #1DA1F2;
+  border-radius: 15px;
+  padding: 10px;
+  color: #14171A;
+  font-family: Verdana;
+
+}
+
+
+
+
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  left: 400px;
+  border-radius: 15px;
+  padding: 10px;
+  color: black;
+  font-family: Verdana;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: #0062ff;
+  color: black;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+
+
+		</style> 
+		
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+<!-- UPDATE INPUTS -->
+
+
+<script>
+function changeText4(){
+    var userInput4 = document.getElementById('userInput4').value;
+    var lnk4 = document.getElementById('lnk4');
+    lnk4.href = "https://twitter.com/search?q=" + userInput4;
+    lnk4.innerHTML = userInput4; 
+
+    var userInput41 = document.getElementById('userInput4').value;
+    var lnk41 = document.getElementById('lnk41');
+    lnk41.href = "https://www.reddit.com/r/GME/search?q=" + userInput4 + "&restrict_sr=1&sort=new";
+    lnk41.innerHTML = userInput4; 
+
+    var userInput42 = document.getElementById('userInput4').value;
+    var lnk42 = document.getElementById('lnk42');
+    lnk42.href = "https://www.reddit.com/r/GME/search?q=" + userInput4 + "&restrict_sr=1&sort=hot";
+    lnk42.innerHTML = userInput4; 
+
+    var userInput43 = document.getElementById('userInput4').value;
+    var lnk43 = document.getElementById('lnk43');
+    lnk43.href = "https://www.reddit.com/r/wallstreetbets/search?q=" + userInput4 + "&restrict_sr=1&sort=new";
+    lnk43.innerHTML = userInput4;
+
+    var userInput44 = document.getElementById('userInput4').value;
+    var lnk44 = document.getElementById('lnk44');
+    lnk44.href = "https://www.reddit.com/r/wallstreetbets/search?q=" + userInput4 + "&restrict_sr=1&sort=hot";
+    lnk44.innerHTML = userInput4;
+
+    var userInput45 = document.getElementById('userInput4').value;
+    var lnk45 = document.getElementById('lnk45');
+    lnk45.href = "https://www.youtube.com/results?search_query=" + userInput4;
+    lnk45.innerHTML = userInput4;
+
+    var userInput46 = document.getElementById('userInput4').value;
+    var lnk46 = document.getElementById('lnk46');
+    lnk46.href = "https://www.youtube.com/results?search_query=" + userInput4 + "&sp=EgJAAQ%253D%253D";
+    lnk46.innerHTML = userInput4;
+
+    var userInput47 = document.getElementById('userInput4').value;
+    var lnk47 = document.getElementById('lnk47');
+    lnk47.href = "https://trends.google.com/trends/explore?q=" + userInput4;
+    lnk47.innerHTML = userInput4;
+
+    var userInput48 = document.getElementById('userInput4').value;
+    var lnk48 = document.getElementById('lnk48');
+    lnk48.href = "https://news.google.com/search?q=" + userInput4;
+    lnk48.innerHTML = userInput4;
+
+    var userInput49 = document.getElementById('userInput4').value;
+    var lnk49 = document.getElementById('lnk49');
+    lnk49.href = "https://www.google.com/finance/quote/" + userInput4 + ":NYSE";
+    lnk49.innerHTML = userInput4;
+
+    var userInput50 = document.getElementById('userInput4').value;
+    var lnk50 = document.getElementById('lnk50');
+    lnk50.href = "https://www.google.com/search?sxsrf=ALeKk021c-CUMo5K2X_Gts_QDYDX9qTvCw%3A1615595045201&source=hp&ei=JQZMYK7MCcLUtQWl7JToAQ&iflsig=AINFCbYAAAAAYEwUNQ0hArDtXGvm_BgBgIH9xYIdydGZ&q=" + userInput4;
+    lnk50.innerHTML = userInput4;
+
+    var userInput51 = document.getElementById('userInput4').value;
+    var lnk51 = document.getElementById('lnk51');
+    lnk51.href = "https://www.facebook.com/search/posts?q=" + userInput4 + "&filters=eyJycF9hdXRob3I6MCI6IntcIm5hbWVcIjpcIm1lcmdlZF9wdWJsaWNfcG9zdHNcIixcImFyZ3NcIjpcIlwifSIsInJwX2NyZWF0aW9uX3RpbWU6MCI6IntcIm5hbWVcIjpcImNyZWF0aW9uX3RpbWVcIixcImFyZ3NcIjpcIntcXFwic3RhcnRfeWVhclxcXCI6XFxcIjIwMjFcXFwiLFxcXCJzdGFydF9tb250aFxcXCI6XFxcIjIwMjEtMVxcXCIsXFxcImVuZF95ZWFyXFxcIjpcXFwiMjAyMVxcXCIsXFxcImVuZF9tb250aFxcXCI6XFxcIjIwMjEtMTJcXFwiLFxcXCJzdGFydF9kYXlcXFwiOlxcXCIyMDIxLTEtMVxcXCIsXFxcImVuZF9kYXlcXFwiOlxcXCIyMDIxLTEyLTMxXFxcIn1cIn0ifQ%3D%3D";
+    lnk51.innerHTML = userInput4;
+
+    var userInput52 = document.getElementById('userInput4').value;
+    var lnk52 = document.getElementById('lnk52');
+    lnk52.href = "https://www.instagram.com/explore/tags/" + userInput4;
+    lnk52.innerHTML = userInput4;
+
+    var userInput53 = document.getElementById('userInput4').value;
+    var lnk53 = document.getElementById('lnk53');
+    lnk53.href = "https://www.reuters.com/search/news?blob=" + userInput4 + "&sortBy=date&dateRange=all";
+    lnk53.innerHTML = userInput4;
+
+    var userInput54 = document.getElementById('userInput4').value;
+    var lnk54 = document.getElementById('lnk54');
+    lnk54.href = "https://finance.yahoo.com/quote/" + userInput4;
+    lnk54.innerHTML = userInput4;
+
+    var userInput55 = document.getElementById('userInput4').value;
+    var lnk55 = document.getElementById('lnk55');
+    lnk55.href = "https://www.nasdaq.com/market-activity/stocks/" + userInput4;
+    lnk55.innerHTML = userInput4;
+
+    var userInput56 = document.getElementById('userInput4').value;
+    var lnk56 = document.getElementById('lnk56');
+    lnk56.href = "https://stocktwits.com/symbol/" + userInput4;
+    lnk56.innerHTML = userInput4;
+
+    var userInput57 = document.getElementById('userInput4').value;
+    var lnk57 = document.getElementById('lnk57');
+    lnk57.href = "https://swaggystocks.com/dashboard/stocks/" + userInput4;
+    lnk57.innerHTML = userInput4;
+}
+
+</script>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+<!-- BUTTONS -->
+
+<!-- DISPLAY LINKS -->
+
+<div class="container">
+
+  <div class="bottom-left">Bottom Left</div>
+  <div class="top-left" align= "left">
+<center>
+<b><h1>&#x1F4FA;</h1></b>
+</center>
+<a href="https://www.youtube.com/channel/UC4a-9NnHFv4ZhI-HWc4xNaA" target="blank">Trey's Trades</a><br>
+<a href="https://www.youtube.com/channel/UCYNM_dInWi_glMZT3gxqxPQ" target="blank">Uncle Bruce</a><br>
+<a href="https://www.youtube.com/c/MaxMaher/videosMax" target="blank">Max Maher</a><br>
+<a href="https://www.youtube.com/c/MattKohrs/videos" target="blank">Matt Kors<br>
+<a href="https://www.youtube.com/c/AndrewMoMoney/videos" target="blank">Andrew MoMoney<br>
+Meet Kevin
+
+
+
+
+<br>
+
+
+
+
+
+
+</div>
+</div>
